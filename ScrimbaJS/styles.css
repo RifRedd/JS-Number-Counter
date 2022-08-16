@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    background:linear-gradient(135deg, #FDAC53, #B55A30);
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 200px;
+    padding: 10px;
+    background:linear-gradient(180deg, lightblue, cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+button {
+    padding: 10px;
+    margin: 15px;
+    width:140px;
+    border-radius: 16px;
+    border: none;
+}
+
+#increment-btn {
+    background: #FDAC53;
+}
+
+#save-btn {
+    background: #B55A30;
+}
+
+    #save-btn {
+    margin-top: 0px;
+}
